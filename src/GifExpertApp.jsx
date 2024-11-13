@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { AddCategory, GifGrid } from './components';
 
 export const GifExpertApp = () => {
-	const [categories, setCategories] = useState(['SFW']);
+	const [categories, setCategories] = useState(['']);
 
 	const onAddCategory = (value) => {
 		if (categories.includes(value)) {
